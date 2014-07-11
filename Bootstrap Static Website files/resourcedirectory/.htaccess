@@ -1,0 +1,2 @@
+AuthName "Free Bootstrap Resources"
+AuthUserFile "/home/musgrove/.htpasswds/public_html/freebootstrap.com/resources/passwd"

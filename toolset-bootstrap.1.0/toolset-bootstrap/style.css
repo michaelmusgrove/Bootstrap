@@ -1,0 +1,85 @@
+/*
+Theme Name: Toolset Bootstrap
+Author: OnTheGoSystems
+Author URI: http://www.onthegosystems.com/
+Description: Advanced Bootstrap theme for responsive grid sites with Toolset elements.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, white, light, one-column, flexible-width, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+
+Credits to:
+Twitter Bootstrap framework - http://twitter.github.com/bootstrap/
+HTML5 Boilerplate template - http://html5boilerplate.com/
+The Roots theme - http://www.rootstheme.com/
+The Bootstrap theme - http://wordpress.org/extend/themes/the-bootstrap
+*/
+/*@import url("../twentytwelve/style.css");*/
+/* Add padding to body in fixed navbar is enabled */
+body.menu-fixed-top {
+	padding-top: 40px;
+}
+
+/* fix for fixed menu position when WP admin bar is visible */
+body.menu-fixed-top.admin-bar .navbar-fixed-top {
+	top: 28px;
+}
+
+.post-thumbnail {
+	margin-right: 10px;
+}
+
+/* Styles for classes added by WP Editor*/
+.aligncenter {
+    display:block;
+    margin: 0 auto 10px;
+}
+
+.alignright {
+	display: inline;
+    float:right;
+    margin: 0 0 10px 10px;
+}
+
+.alignleft {
+	display: inline;
+    float:left;
+    margin: 0 10px 10px 0;
+}
+
+/* Styles for WP Gallery inserted using [gallery] shortcode */
+.gallery .clear {
+	clear: both;
+}
+
+.gallery .thumbnail img {
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
+
+/* Caption */
+.wp-caption {}
+.wp-caption.alignnone {}
+.wp-caption.alignleft {}
+.wp-caption.alignright {}
+.wp-caption img {}
+.wp-caption p.wp-caption-text {}
+
+.bypostauthor{}
+.sticky{}
+.gallery-caption{}
+
+/* Fix for code line breaks */
+code {
+white-space: pre !important;           /* CSS 2.0 */
+white-space: pre-wrap !important;      /* CSS 2.1 */
+white-space: pre-line !important;      /* CSS 3.0 */
+white-space: -pre-wrap !important;     /* Opera 4-6 */
+white-space: -o-pre-wrap !important;   /* Opera 7 */
+white-space: -moz-pre-wrap !important; /* Mozilla */
+white-space: -hp-pre-wrap !important;  /* HP Printers */
+word-wrap: break-word !important;      /* IE 5+ */
+}

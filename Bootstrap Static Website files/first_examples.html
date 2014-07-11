@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My First Bootstrap Site</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<!-- HTML5 shim for IE backwards compatibility -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="row-fluid">
+            <h1 class="span12">My Very First Bootstrap Page!</h1>
+        </header>
+        
+            <section class="row-fluid">
+                <aside class="span3">
+                    <p>This is our text on the left</p>
+                </aside>
+                    <article class="span9">
+                        <h2>Article Title</h2>
+                    <p>This is our text on the right</p>
+                    </article>
+            </section>
+                
+            <section class="row-fluid">    
+                <article class="span9 offset3">
+                    <h2>Another Article</h2>
+                    <p>Yet more Text on the right as an Article</p>
+                </article>                
+            </section>
+             
+            <section class="row-fluid">
+                <div class="span9 offset3">
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <h3>Information Box One</h3>
+                             <img src="/Free Bootstrap/img/northern-lights.jpg">
+                             <p>These are Northern Lights</p>
+                        </div>
+                        <div class="span6">
+                            <h3>Information Box Two</h3>
+                             <img src="/Free Bootstrap/img/portugal.jpg">
+                             <p>This was taken in Portugal</p>
+                        </div>
+                    </div>
+                </div>
+            </section>               
+        
+        <section class="row-fluid">
+            <div class="span4 visible-desktop">This is visible on a desktop</div>
+            <div class="span4 visible-tablet">This is visible on a tablet.</div>
+            <div class="span4 visible-phone">This is visible on a phone.</div>
+        </section>
+        
+        <footer class="row-fluid">
+            <h4 class="span2 offset10">©2013 FreeBoostrap.com *-* Navigation Here</h4>
+        </footer>
+    </div>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
